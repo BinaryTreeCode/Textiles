@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(250, 154, 154);
+}
+
+.introduction {
+    background-color:skyblue;
+}
+.introduction ul {
+    color: black;
+    padding: 8;
+}
+.introduction ol {
+    color:rgb(54, 35, 224);
+    padding: 8;
+}
+
+.products figure {
+    margin-left: 0;
+}
+.products {
+    background-color:navy;
+}
+.products a {
+    color:white;
+}
+.products figcaption {
+    font-size: 100px;
+}
+.products__img--1 {
+    background-color: cadetblue;
+}
+.products__img--1 img{
+    border-radius: 500px;
+}
+.products__img--2 {
+    background-color:darkcyan;
+}
+.products__img--2 img{
+    border-radius: 500px;
+}
+.products__img--3 {
+    background-color:midnightblue;
+}
+.products__img--3 img{
+    border-radius: 500px;
+}
+.products__img--4 {
+    background-color:sienna;
+}
+.products__img--4 img{
+    border-radius: 500px;
+}
+.products__img--5 {
+    background-color: teal;
+}
+.products__img--5 img{
+    border-radius: 500px;
+}
+
+.form--register {
+    background-color:rgb(148, 243, 196);
+    color: darkblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.lits {
+    padding-right: 250px;
+    background-color: rgb(162, 255, 201);
+    list-style: none;
+    padding: 5px;
+}
+.lits a{
+    background-color: cadetblue;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.lits li{
+    display: inline-block;
+    margin-left: 100px;
+}
+.lits a:hover{
+    color: darkblue;
+}
+.lits a:active{
+    color: red;
+}
+.lits a::after{
+    content: " | ";
+}
+
+.make {
+    background-color: royalblue;
+}
