@@ -20,12 +20,13 @@
         <form action="">
             <label for="password">
                 <span>tu contraseña</span>
-                <input type="password" name="password"  placeholder="contraseña" id="password" autocomplete="current-password">
+                <input type="password" name="password"  placeholder="contraseña" id="password" autocomplete="current-password" required />
             </label>
             <label for="correo">
                 <span>pon tu correo</span>
-                <input type="email" name="correo"  placeholder="Tu correo" id="correo" autocomplete="email">
+                <input type="email" name="correo"  placeholder="Tu correo" id="correo" autocomplete="email" required />
             </label>
+            <input type="submit" value="regsitrarse" />
         </form>
         <section>
             <article>
@@ -81,20 +82,32 @@
             <!-- for="nombre" y id input deben ser el mismo y el mismo de name-->
             <label for="nombre">
                 <span>¿cual es tu nombre?</span>
-                <input type="text" name="nombre" placeholder="Tu nombre" id="nombre" autocomplete="name" />
+                <input type="text" name="nombre" placeholder="Tu nombre" id="nombre" autocomplete="name" required />
             </label>
             <label for="numero">
                 <span>¿cual es tu numero de telefono?</span>
-                <input type="text" name="numero" placeholder="tu numero de telefono" id="numero" autocomplete="mobile" />
+                <input type="text" name="numero" placeholder="tu numero de telefono" id="numero" autocomplete="mobile" required />
             </label>
             <label for="producto">
-                <span>¿que porducto quieres?</span>
-                <input type="text" name="producto" placeholder="producto" id="producto" autocomplete="" />
+                <span>escoje tu producto</span>
+                <input list="productos" name="producto" placeholder="producto" id="producto" required />
+                <datalist id="productos">
+                    <!-- value es el valor que se va a enviar al servidor -->
+                    <option value="manillas">manillas</option>
+                    <option value="guantes">guantes</option>
+                    <option value="osos">osos</option>
+                    <option value="bufandas">bufandas</option>
+                    <option value="gorros">gorros</option>
+                </datalist>
             </label>
             <label for="fecha">
                 <span>¿en que fecha y hora quieres recojerlo?</span>
-                <input type="datetime-local" name="fecha" placeholder="La fecha" id="fecha" />
+                <input type="datetime-local" name="fecha" placeholder="La fecha" id="fecha" required />
             </label>
+            <!-- boton usado para enviar el formulario con el atributo value se puede cambiar el texto que se muestra -->
+            <!-- la etiqueta button se debe ser usada para otros botones del proyecto aunque par enviar se puede usar
+            el atributo type="submit"
+            <button type="submit">texto que se muestra</button> -->
             <input type="submit" />
         </form>
 
