@@ -8,24 +8,32 @@ body {
     background-color: rgb(250, 154, 154);
 }
 
+.introduction__article {
+    background-color:skyblue;
+    margin-left: 50px;
+
+}
 .introduction {
     background-color:skyblue;
 }
-.introduction ul {
+.introduction__article ul {
     color: black;
     padding: 8;
 }
-.introduction ol {
+.introduction__article ol {
     color:rgb(54, 35, 224);
     padding: 8;
 }
-
 .products figure {
-    margin-left: 0;
+    margin-left: 0px;
 }
 .products {
     background-color:navy;
+    margin-left: 50px;
 }
+.products {
+}
+
 .products a {
     color:white;
 }
@@ -34,24 +42,32 @@ body {
 }
 .products__img--1 {
     background-color: cadetblue;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 .products__img--1 img{
     border-radius: 500px;
 }
 .products__img--2 {
     background-color:darkcyan;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 .products__img--2 img{
     border-radius: 500px;
 }
 .products__img--3 {
     background-color:midnightblue;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 .products__img--3 img{
     border-radius: 500px;
 }
 .products__img--4 {
     background-color:sienna;
+    padding-top: 30px;
+    padding-left: 50px;
 }
 .products__img--4 img{
     border-radius: 500px;
