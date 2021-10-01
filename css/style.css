@@ -1,4 +1,5 @@
 * {
+    border: 0px;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -30,8 +31,6 @@ body {
 .products {
     background-color:navy;
     margin-left: 50px;
-}
-.products {
 }
 
 .products a {

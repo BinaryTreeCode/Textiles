@@ -1,7 +1,7 @@
 <!DOCTYPE html />
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UT F-8">
     <!--descripción de la pagina-->
     <meta name="description " content="compra tejidos artesanales">
     <!--indesar a lor robots de los buscadores-->
@@ -20,21 +20,22 @@
             <li><a href="produc.html">productos</a></li>
             <li><a href="contac.html">contacto</a></li>
             <li><a href="make.html">como se hace</a></li>
+            <inputB type="text" id="saludo">
         </ul>
     </nav>
     </header>
     <main>
         <section class="form--register">
         <form action="">
-            <label for="password" class="form--register__password">
-                <span>tu contraseña</span>
-                <input type="password" name="password"  placeholder="contraseña" id="password" autocomplete="current-password" required />
-            </label>
             <label for="correo" class="form--register__email">
                 <span>pon tu correo</span>
                 <input type="email" name="correo"  placeholder="Tu correo" id="correo" autocomplete="email" required />
             </label>
-            <input type="submit" value="regsitrarse" class="form--register__submit" />
+            <label for="contraseña "class="form--register__password">
+                <span>tu contraseña</span>
+                <input type="password" name="contraseña"  placeholder="contraseña" id="contraseña" autocomplete="current-password" required />
+            </label>
+            <input type="submit" value="regsitrarse" class="form--register__submit" id="register__submit"/>
         </form>
         </section>
 
@@ -133,8 +134,9 @@
             <!-- la etiqueta button se debe ser usada para otros botones del proyecto aunque par enviar se puede usar
             el atributo type="submit"
             <button type="submit">texto que se muestra</button> -->
-            <input type="submit" />
+            <input type="submit" id="product__submit"/>
         </form>
+        <inputC type="text" id="confirmación">
         </section>
 
         <section class="make">
@@ -152,5 +154,6 @@
     </main>
     <footer></footer>
     <a href="#">soy un link</a>
+    <script src="./tienda.js"></script>
 </body>
 </html>
