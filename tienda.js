@@ -76,7 +76,6 @@ function verificación () {
         // txt.textContent = "Si no tienes una cuenta te puedes registrar en aqui";
     }
 }
-
 let intruciones = "no hay";
 
 function text() {
